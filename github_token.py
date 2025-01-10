@@ -5,9 +5,9 @@ import base64
 api_key = 'sjhfjhsjfhjhj_hh346GBkjshjhsdh'
 # The username
 username = 'username'
-file_path = 'list_types.java'
+file_path = 'github_token.py'
 # repository name
-repo = 'repo_name'
+repo = 'python'
 # GitHub API URL of file to get data 
 file_path = 'file path'
 url = f'https://api.github.com/repos/{username}/{repo}/contents/{file_path}'
