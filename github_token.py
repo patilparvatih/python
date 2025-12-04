@@ -2,7 +2,7 @@ import requests
 import json
 import base64
 # Your GitHub API key token
-api_key = 'sjhfjhsjfhjhj_hh346GBkjshjhsdh'
+api_key = 'PUT YOUR API KEY IN THIS PLACE'
 # The username
 username = 'username'
 file_path = 'github_token.py'
@@ -12,7 +12,7 @@ repo = 'python'
 file_path = 'file path'
 url = f'https://api.github.com/repos/{username}/{repo}/contents/{file_path}'
 # Headers for the request
-headers = { 
+headers = {
     'Authorization': f'token {api_key}',
     'Accept': 'application/vnd.github.v3+json'
 }
