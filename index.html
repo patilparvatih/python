@@ -1,1 +1,30 @@
-<h1>Github Page</h1>
+<html>
+  <head>
+    <title>Github Page Sample</title>
+  </head>
+  <style>
+    input{
+      background-color:rgb(31,31,31);
+      color:white;
+      font-size:20px;
+    }
+    button{
+      background-color:blue;
+      border:none;
+      outline:none;
+      font-size:20px;
+      border-radius:5px;
+    }
+  </style>
+<body>
+  <h1>Enter Your Name</h1>
+  <input id="name" placeholder="Enter Name">
+  <button onclick="Show()">Send</button>
+  <script>
+    let nm = document.getElementById("name");
+    function Show(){
+      alert(nm.value);
+    }
+  </script>
+</body>
+</html>
